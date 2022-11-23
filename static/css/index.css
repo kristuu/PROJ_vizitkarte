@@ -86,6 +86,35 @@ section {
 	flex-grow: 0;
 }
 
+.experience-title h3 {
+	display: inline;
+	font-weight: bold;
+}
+
+.experience-place {
+	margin: var(--spacing-1) 0 var(--spacing-2) 0;
+}
+
+.experience-description {
+	margin: 0.25rem 0;
+}
+
+.experience-description-last {
+	margin: 0;
+}
+
+.experience-duties-list {
+	margin: 0 0 var(--spacing-3) 0;
+}
+
+details {
+	cursor: pointer;
+}
+
+summary {
+	list-style-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg");
+}
+
 @media only screen and (max-width: 600px) {
 	.portrait {
 		align-self: center;
