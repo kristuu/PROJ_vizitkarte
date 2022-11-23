@@ -59,16 +59,42 @@ a {
 	font-weight: 600;
 }
 
+section {
+	padding: var(--spacing-3) 0;
+}
+
 .about-me-container {
 	display: flex;
 }
 
 .about-me-text {
-	margin: 0 var(--spacing-2) 0 0;
+	margin: 0 0 0 var(--spacing-2);
+}
+
+.about-me-text p {
+	text-align: justify;
 }
 
 .portrait {
 	width: 300px;
 	border-radius: var(--border-radius);
 	flex-shrink: 0;
+}
+
+@media only screen and (max-width: 600px) {
+	.portrait {
+		align-self: center;
+	}
+
+	.about-me-container {
+		flex-direction: column;
+	}
+
+	.about-me-text {
+		margin: var(--spacing-2) 0 0 0;
+	}
+
+	/*.about-me-text h2 {
+		text-align: center;
+	}*/
 }
