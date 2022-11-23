@@ -79,6 +79,11 @@ section {
 	width: 300px;
 	border-radius: var(--border-radius);
 	flex-shrink: 0;
+	flex-grow: 0;
+}
+
+.portrait img {
+	flex-grow: 0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -94,7 +99,7 @@ section {
 		margin: var(--spacing-2) 0 0 0;
 	}
 
-	/*.about-me-text h2 {
-		text-align: center;
-	}*/
+	#second-aboutme-text {
+		margin: 0;
+	}
 }
