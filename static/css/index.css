@@ -86,6 +86,18 @@ section {
 	flex-grow: 0;
 }
 
+.education-entry h3 {
+	margin: 0 0 var(--spacing-1) 0;
+}
+
+.education-entry p {
+	margin: 0;
+}
+
+.education-entry p:last-child {
+	margin: 0 0 var(--spacing-3) 0;
+}
+
 .experience-title h3 {
 	display: inline;
 	font-weight: bold;
