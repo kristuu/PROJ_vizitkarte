@@ -58,3 +58,17 @@ a {
 	text-decoration: none;
 	font-weight: 600;
 }
+
+.about-me-container {
+	display: flex;
+}
+
+.about-me-text {
+	margin: 0 var(--spacing-2) 0 0;
+}
+
+.portrait {
+	width: 300px;
+	border-radius: var(--border-radius);
+	flex-shrink: 0;
+}
